@@ -1,0 +1,17 @@
+.mobile_display_login{
+    display: none;
+}
+.app-nav{
+    padding-top: 20px;
+}
+@media only screen and (max-width: 991px) {
+    .mobile_display_login{
+        display: -webkit-box;
+    }
+    .desktop_display_login{
+        display: none;
+    }
+    .logo-image{
+        width: 100px;
+    }
+}
